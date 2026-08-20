@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code / Claude Teams skills maintained by ThinkOps.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -16,7 +16,29 @@
       "strict": false,
       "skills": [
         "./skills/backup-claude-data",
+        "./skills/missive-rule-approval-workflow",
+        "./skills/software-spend-audit",
+        "./skills/team-skill-registry"
+      ]
+    },
+    {
+      "name": "thinkops-back-office",
+      "description": "Money-finding and workflow automation for AP/bookkeeping operations. (2 skills)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/software-spend-audit",
         "./skills/missive-rule-approval-workflow"
+      ]
+    },
+    {
+      "name": "thinkops-internal-tooling",
+      "description": "Keep a team's own Claude setup inventoried and backed up. (2 skills)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/team-skill-registry",
+        "./skills/backup-claude-data"
       ]
     }
   ]
