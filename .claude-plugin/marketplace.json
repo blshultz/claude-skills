@@ -1,0 +1,23 @@
+{
+  "name": "thinkops-skills",
+  "owner": {
+    "name": "Brittany Shultz",
+    "email": "brittany@thinkops.co"
+  },
+  "metadata": {
+    "description": "Public Claude Code / Claude Teams skills maintained by ThinkOps.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "thinkops-everything",
+      "description": "Everything in this repo, in one install.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/backup-claude-data",
+        "./skills/missive-rule-approval-workflow"
+      ]
+    }
+  ]
+}
