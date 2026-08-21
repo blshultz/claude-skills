@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code / Claude Teams skills maintained by ThinkOps.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
@@ -15,6 +15,8 @@
       "source": "./",
       "strict": false,
       "skills": [
+        "./skills/agent-health-monitor",
+        "./skills/agent-run-ledger",
         "./skills/backup-cowork-data",
         "./skills/missive-rule-approval-workflow",
         "./skills/software-spend-audit",
@@ -38,7 +40,19 @@
       "strict": false,
       "skills": [
         "./skills/team-skill-registry",
-        "./skills/backup-cowork-data"
+        "./skills/backup-cowork-data",
+        "./skills/agent-run-ledger",
+        "./skills/agent-health-monitor"
+      ]
+    },
+    {
+      "name": "thinkops-agent-monitoring",
+      "description": "Make recurring agents report honestly and catch the ones that silently stop. (2 skills)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agent-run-ledger",
+        "./skills/agent-health-monitor"
       ]
     }
   ]

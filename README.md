@@ -15,6 +15,8 @@ Or install a smaller bundle: `thinkops-back-office` or `thinkops-internal-toolin
 
 | Skill | What it does |
 |---|---|
+| [`agent-run-ledger`](skills/agent-run-ledger/SKILL.md) | The reporting convention every recurring agent follows — start record before work, honest outcome after, and never report success for anything unverified. |
+| [`agent-health-monitor`](skills/agent-health-monitor/SKILL.md) | The watchdog that catches what no agent can self-report: the run that never fired, and the one that died partway. |
 | [`team-skill-registry`](skills/team-skill-registry/SKILL.md) | Keeps a team's Claude skills inventoried — what exists, where it lives, its confidentiality class, what's wired into scheduled jobs, and what's gone stale. |
 | [`software-spend-audit`](skills/software-spend-audit/SKILL.md) | Periodic audit of recurring software subscriptions — flags duplicates, zombies, seat waste, and silent price increases, with evidence and exact next steps. Recommends only; never cancels anything. |
 | [`backup-cowork-data`](skills/backup-cowork-data/SKILL.md) | Back up local Claude Cowork projects and scheduled-task definitions to a private GitHub repo, with a secrets review before every commit. |
