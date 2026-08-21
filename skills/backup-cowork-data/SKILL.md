@@ -1,5 +1,5 @@
 ---
-name: backup-claude-data
+name: backup-cowork-data
 description: Back up local Claude Cowork project files and scheduled-task definitions to a private GitHub repo, reviewing every new or changed file for accidentally-embedded secrets before committing anything. Use this whenever the user asks to "back up" their Claude or Cowork data, mentions losing scheduled tasks or projects (e.g. after a plan upgrade wiped them), asks to push Cowork projects to GitHub, wants a recurring/automated backup of their local Claude working folder, or is setting this up fresh on a new machine or for a teammate.
 ---
 

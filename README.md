@@ -17,7 +17,7 @@ Or install a smaller bundle: `thinkops-back-office` or `thinkops-internal-toolin
 |---|---|
 | [`team-skill-registry`](skills/team-skill-registry/SKILL.md) | Keeps a team's Claude skills inventoried — what exists, where it lives, its confidentiality class, what's wired into scheduled jobs, and what's gone stale. |
 | [`software-spend-audit`](skills/software-spend-audit/SKILL.md) | Periodic audit of recurring software subscriptions — flags duplicates, zombies, seat waste, and silent price increases, with evidence and exact next steps. Recommends only; never cancels anything. |
-| [`backup-claude-data`](skills/backup-claude-data/SKILL.md) | Back up local Claude Cowork projects and scheduled-task definitions to a private GitHub repo, with a secrets review before every commit. |
+| [`backup-cowork-data`](skills/backup-cowork-data/SKILL.md) | Back up local Claude Cowork projects and scheduled-task definitions to a private GitHub repo, with a secrets review before every commit. |
 | [`missive-rule-approval-workflow`](skills/missive-rule-approval-workflow/SKILL.md) | Template for a recurring inbox-scan → propose rule → human-approve → apply pattern for Missive auto-routing rules. |
 
 ## About this repo
