@@ -18,6 +18,7 @@
         "./skills/agent-health-monitor",
         "./skills/agent-run-ledger",
         "./skills/backup-cowork-data",
+        "./skills/missive-inbox-agent",
         "./skills/missive-rule-approval-workflow",
         "./skills/software-spend-audit",
         "./skills/team-skill-registry"
@@ -25,11 +26,12 @@
     },
     {
       "name": "thinkops-back-office",
-      "description": "Money-finding and workflow automation for AP/bookkeeping operations. (2 skills)",
+      "description": "Money-finding and workflow automation for AP/bookkeeping operations. (3 skills)",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/software-spend-audit",
+        "./skills/missive-inbox-agent",
         "./skills/missive-rule-approval-workflow"
       ]
     },
