@@ -19,8 +19,10 @@ even then, only after confirming the MCP tool set genuinely doesn't cover it
 ## Capability matrix
 
 _Last verified: 2026-09-07, against Missive's published developer docs
-(missiveapp.com/docs/developers). A scheduled job re-checks this monthly and
-updates this table in place — don't manually reorganize it, just update rows._
+(missiveapp.com/docs/developers). A scheduled job re-checks this monthly
+against `references/api-snapshot.md` and proposes an update (as a branch +
+Slack notification, not a silent push to main) only when something in this
+table would actually change — not on every wording tweak in Missive's docs._
 
 | Capability | Access path | Notes |
 |---|---|---|
